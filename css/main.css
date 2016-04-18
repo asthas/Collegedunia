@@ -135,6 +135,7 @@ body {
 h2{
    font-weight: 400;
    letter-spacing: 1px;
+   margin-bottom: 24px;
 }
 
 .progress{
@@ -157,7 +158,7 @@ h2{
 }
 
 .port{
-    width: 36%;
+    width: 30%;
     margin: 0 auto;
 }
 left2{
@@ -176,15 +177,21 @@ left2{
     border: 1px solid transparent;
     height: 500px;
     margin-right: 20px;
+     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 .white-box{
     background-color: #fff;
     height: 225px;
+     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 .white-box2{
     margin-top: 48px;
     background-color: #fff;
     height: 225px;
+     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 .add{
     margin: 0 auto;
@@ -387,6 +394,8 @@ left2{
     width: 100%;
     background: #fff;
     padding: 10px;
+     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 .icon-box{
     border: 0.8px solid #E0E0E0;
@@ -548,6 +557,10 @@ left2{
 .price-list h1{
     font-weight: 200;
 }
+.price-card{
+     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
 .white-container{
     margin-top: -20px;
     background-color: white;
@@ -577,6 +590,11 @@ left2{
     margin: 0 auto;
     margin-top: 60px;
 }
+.blog-card{
+     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    border-radius: 2px;
+}
 .blog-rect{
     height: 300px;
     background-color: #E0E0E0;
@@ -587,7 +605,7 @@ left2{
     background-color: #fff;
 }
 .head1{
-    margin-left: 36%;
+    margin-left: 39%;
 }
 
 .head2{
@@ -658,8 +676,10 @@ left2{
 .calendar-table {
    border-radius: 5px;
    box-sizing: border-box;
-   width: 78%;
+   width: 75%;
    margin: 0 auto;
+   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+   border-radius: 2px;
 }
 .calendar-table .header-button {
     text-align: left;
@@ -742,7 +762,7 @@ p{
     background: #25D366;
     border-radius: 8px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .green-cal h1{
     font-weight: 200;
@@ -766,9 +786,17 @@ p{
     background: #fff;
     text-align: left;
     color: #555;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    border-radius: 2px;
+}
+.map-container{
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 .map{
     background: #fff;
+    border-radius: 2px;
+    text-align: left;
+    padding: 40px 10px;
 }
 .message{
     margin-bottom: 60px;
@@ -776,9 +804,18 @@ p{
 .form .row{
     margin-top: 42px;
 }
-.map{
-    text-align: left;
+
+.form-field{
+    padding: 20px 0px
 }
-.map > tr{
-    margin: 2em;
+.form-field p{
+    font-size: 15px;
+}
+
+.form-field .text-muted{
+    font-size: 14px;
+}
+.map-img{
+    width: 100%;
+    height: 218px;
 }
