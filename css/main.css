@@ -216,6 +216,7 @@ left2{
     margin: 0 auto;
 }
 
+
     .timeline:before {
         top: 60px;
         bottom: 240px;
@@ -225,6 +226,10 @@ left2{
         background-color: #B9F6CA;
         left: 50%;
         margin-left: -1.5px;
+    }
+
+    .timeline2:before{
+        bottom: 150px;
     }
 
     .timeline > li {
@@ -366,6 +371,9 @@ left2{
 
 .timeline-inverted{
     margin-top: -240px;
+}
+.timeline-inverted2{
+    margin-top: -110px;
 }
 .years{
     font-weight: 500;
@@ -624,9 +632,15 @@ left2{
    margin-bottom: 0px;
 }
 .interest{
-    margin: 0 auto;
-    margin-top: 60px;
-    width: 75%;
+   margin: 0 auto;
+   margin-top: 60px;
+   width: 75%;
+   position: relative;
+   left: 12.5%;
+   display: inline-block;
+}
+.interest > p {
+   font-size: 1em;
 }
 .ref-card > p{
     line-height: 1.3em;
@@ -707,13 +721,28 @@ left2{
   font-size: 18px;
   margin: 1.5em;
   padding: 5px;
+  max-width: 10px;
 }
 
 .calendar-table .selected {
-  background: #25D366;
   border: 0;
-
+  position: relative;
+  z-index: 0;
+  color: #fff;
 }
+
+.selected::after{
+    content: "";
+    position: absolute;
+    background-color: #25D366;
+    height: 32px;
+    width: 32px;
+    border-radius: 4px;
+    left: 32%;
+    top: 15%;
+    z-index: -1;
+}
+
 .calendar-table tr:first-child td{
     margin-bottom: 3em;
     color: #777;
@@ -725,10 +754,25 @@ left2{
 
 .calendar-table .dim{
     color: #CFD8DC;
+
 }
 .calendar-table .unavailable{
-    color: #fff;
+  border: 0;
+  position: relative;
+  z-index: 0;
+  color: #fff;
+}
+
+.unavailable::after{
+   content: "";
+    position: absolute;
     background-color: #B0BEC5;
+    height: 32px;
+    width: 32px;
+    border-radius: 4px;
+    left: 32%;
+    top: 15%;
+    z-index: -1;
 }
 
 .un-box{
@@ -821,4 +865,13 @@ p{
 }
 .contact-card{
     margin-bottom: 40px;
+}
+.black-box-text{
+    margin-top: 300px;
+    text-align: left;
+    margin-left: 20px;
+}
+.grey-border{
+    padding: 8px;
+    border: 1px solid grey;
 }
