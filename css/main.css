@@ -8,7 +8,7 @@ body {
 
 .intro-card{
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 150px;
     background-color: #fff;
     width: 75%;
      -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
@@ -25,6 +25,10 @@ body {
     width: 240px;
     height: 356px;
     background-color: #E0E0E0;
+}
+.blue-background{
+    background-color: #455A64;
+    border-color: #455A64;
 }
 .center{
     text-align: center;
@@ -886,4 +890,20 @@ p{
     text-align: right;
     padding: 2px;
     border-radius: 2px;
+}
+.rs{
+    font-size: 24px;
+    font-weight: 600;
+}
+.nav-text{
+    font-size: 12px;
+    font-weight: 500;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #eee;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background: #455A64;
+    border-bottom: 5px solid #25D366;
+    color: #eee;
 }
